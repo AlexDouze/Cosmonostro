@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="home" unicode="&#xe800;" d="m859 793l-152-2 0-111 156-125-4 238z m-359-2l-467-392 78-2-4-465 315-2 0 235 156 0-2-235 311-2 2 471 84-4-473 396z" horiz-adv-x="1000" />
+<glyph glyph-name="buildings" unicode="&#xe801;" d="m451 779l-422-2 2-838 71 2-2 230 136 0-2-234 463 2-4 230 190 0 0-228 88-4 0 559-520-4 0 287z m-351-66l93 0 0-95-93 0 0 95z m140-144l94 0 0-96-94 0 0 96z m-138-2l93 0 0-96-93 0 0 96z m556-140l94 0 0-96-94 0 0 96z m143 0l94 0 0-96-94 0 0 96z m-561-2l94 0 0-95-94 0 0 95z" horiz-adv-x="1000" />
+<glyph glyph-name="campain" unicode="&#xe802;" d="m398 525l-162-150 0 0 3-256c-45-11-87-25-125-39l0 25c21 4 74 20 75 72 2 101-82 162-82 162 0 0-93-57-93-163 0-47 46-63 72-70l0-31 0-6c-31-13-59-27-84-40l0-43c72 39 178 84 304 105 203 34 454 3 696-233l0 53c-142 130-287 195-424 220 38 24 113 64 205 82 67 14 143 15 219-12l0 31c-33 11-66 17-98 19l0 16c19 3 76 18 77 72 3 101-82 163-82 163 0 0-93-59-93-164 0-46 44-63 71-69l0-17c-35 1-68-2-99-8-22-5-43-10-63-17l0 30c22 5 74 21 75 72 2 101-84 167-84 167 0 0-92-62-92-167 0-48 48-65 74-71l0-31 0-9c-62-23-110-51-135-68l0 224 1 0-45 44 0 66-37 0 0-30-74 71z m-140-150l273-1 0-237c-15 2-29 4-44 5l0 96-58 0 0-95c-11-1-22-1-33-1-33-2-65-6-96-11-13-2-26-4-39-7l-3 251z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

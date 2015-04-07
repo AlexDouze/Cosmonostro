@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Cosmonostro</title>
+<meta name="description"
+	content="Learn how to create a fullscreen slideshow for your scrolling website.">
+
+
+<!--iOS -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--
+        * This demo was prepared for you by Petr Tichy - Ihatetomatoes.net
+        * Want to see more similar demos and tutorials?
+        * Help by spreading the word about Ihatetomatoes blog.
+        * Facebook - https://www.facebook.com/ihatetomatoesblog
+        * Twitter - https://twitter.com/ihatetomatoes
+        * Google+ - https://plus.google.com/u/0/109859280204979591787/about
+    -->
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/fontello.css">
+<link rel="stylesheet" href="css/animation.css">
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+
+	<!--[if lt IE 7]
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+	<!-- Demo content -->
+	<div id="page-content">
+
+		<div id="slides-container">
+			<div id="slides" data-0="transform: translate(0%,0%)"
+				data-150p="transform: translate(0%,-50%)" data-200p=""
+				data-300p="transform: translate(-50%,-50%)" data-350p=""
+				data-450p="transform: translate(-50%,0%)">
+
+				<div id="slide-1" class="slide">
+					<div class="title"
+						data-0p="opacity: 1; transform:translate(0%,0%);"
+						data-120p="opacity: 0;transform:translate(0%,50%);"
+						data-anchor-target="#helper">
+						<img id="imgTitle" alt="Title" src="img/logoTitre.png">
+					</div>
+				</div>
+
+
+				<div id="slide-2" class="slide">
+					<div class="subtitle">
+						<h1 data-70p="opacity: 0;top:0%" data-150p="opacity: 1;top:5%"
+							data-200p="opacity: 1;left: 30%"
+							data-300p="opacity: 0; left: 60%" data-anchor-target="#helper">
+							ATELIER S91</h1>
+						<div class="colonne" data-70p="opacity: 0;top:20%;left:0%"
+							data-150p="opacity: 1;top:20%;left: 10%"
+							data-200p="opacity: 1;top:20%;left: 10%"
+							data-300p="opacity: 0;top:20%;left: 50%"
+							data-anchor-target="#helper">
+							<i class="icon-home icon-title"></i>
+
+							<p>Comprendre et concevoir les territoires contemporains par
+								un regard critique et érudit. La démarche de l’atelier a pour
+								but de mettre les individus au centre des débats contemporain
+								sur et autour de notre production architecturale et urbaine.
+								L’approche de chacun permet d’enrichir un constat collectif et
+								un regard actuel.</p>
+
+						</div>
+						<div class="colonne" data-70p="opacity: 0;top:100%;left:40%"
+							data-150p="opacity: 1;top:20%;left: 40%"
+							data-200p="opacity: 1;top:20%;left: 40%"
+							data-300p="opacity: 0;top:20%;left: 80%"
+							data-anchor-target="#helper">
+							<i class="icon-buildings icon-title"></i>
+
+							<p>La pertinence des questionnements a autant de valeur que
+								la réponse proposée. Cette dernière doit être vue comme une
+								possible réponse. Notre regard critique est alimenté par la
+								lecture de textes, de conférences, de débats, et une ouverture
+								sur d’autres disciplines (sociologie, arts plastiques,
+								poésie...).</p>
+						</div>
+						<div class="colonne" data-70p="opacity: 0;top:20%;left:100%"
+							data-150p="opacity: 1;top:20%;left: 70%"
+							data-200p="opacity: 1;top:20%;left: 70%"
+							data-300p="opacity: 0;top:20%;left: 110%"
+							data-anchor-target="#helper">
+							<i class="icon-campain icon-title"></i>
+
+							<p>Une lecture fine du site et un regard actif et critique
+								sur les lieux s’appuient sur un déjà là, sur une archéologie du
+								lieu, pour mieux inscrire le projet dans un hypothétique futur.
+								En parallèle, une re- cherche théorique développe une
+								problématique, pose un questionne- ment lié au sujet et plus
+								amplement aux problèmes actuels que ren- contre l’architecte.</p>
+						</div>
+					</div>
+				</div>
+
+				<div id="slide-3" class="slide">
+					<div class="subtitle">
+						<h1 data-250p="opacity: 0;left:10%"
+							data-300p="opacity: 1;left:30%" data-anchor-target="#helper">DENSIFICATION</h1>
+					</div>
+					<div id="imgDensification"
+						data-250p="opacity: 0;top: 70%; left: 30%"
+						data-300p="opacity: 1;top: 20%; left:60%"
+						data-anchor-target="#helper">
+						<img alt="Densification" src="img/densification.png">
+					</div>
+				</div>
+				<div id="slide-4" class="slide">
+					<div class="caption">
+						<h1>Title 4</h1>
+						<p>Description 4</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="helper">
+			<div class="marker red"></div>
+			<div class="marker blue"></div>
+			<div class="marker yellow"></div>
+			<div class="marker green"></div>
+		</div>
+		<!-- Start writing the code for the tutorial here -->
+
+	</div>
+	<!-- /Demo content -->
+
+	<script type="text/javascript" src="js/skrollr.min.js"></script>
+	<script type="text/javascript">
+		var s = skrollr.init({
+			smoothScrolling:true
+		});
+	</script>
+</body>
+</html>
