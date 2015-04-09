@@ -52,6 +52,7 @@ public class Plot extends C2DPolygon {
 	}
 
 	private void computeNewDomain(C2DPolygon poly){
+		C2DHoledPolygon polyHoled = new C2DHoledPolygon(poly);
 		int i = 0;
 		while( i < domains.size()){
 			int j=0;
@@ -69,6 +70,11 @@ public class Plot extends C2DPolygon {
 					}
 
 				}
+			}else if(polyHoled.Contains(domain)){
+				System.out.println("poly contains domain");
+				domains.remove(domain);
+			}else if(polyHoled.Crosses(domain.getRim())){
+				System.out.println("ok je vois");
 			}
 			if(j!=0){
 				i += j;

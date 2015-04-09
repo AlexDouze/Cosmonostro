@@ -20,7 +20,7 @@ public class Geometry {
 		for (C2DLineBase line : lines) {
 			C2DLine current = (C2DLine) line.CreateCopy();
 			C2DVector norm = new C2DVector(-current.vector.j, current.vector.i);
-			C2DVector vect = new C2DVector(centroid, current.GetPointFrom());
+			C2DVector vect = new C2DVector(centroid, current.GetMidPoint());
 
 			//inversion de la normale
 			if((norm.Dot(vect)>0 && !expand) || (norm.Dot(vect)<0 && expand )){
@@ -58,6 +58,7 @@ public class Geometry {
 		}
 
 		C2DPolygon innerDomain = new C2DPolygon(points, false);
+		System.out.println("innerDomain perim"+ innerDomain.GetPerimeter());
 		return innerDomain;
 	}
 
